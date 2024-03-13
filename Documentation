@@ -1,0 +1,35 @@
+Voice Recorder GUI
+Voice Recorder GUI is a simple Python application that allows users to record audio from their microphone and save it to a WAV file with the click of a button.
+
+Usage
+Record: Click this button to start recording audio from your microphone. Click it again to stop recording.
+Exit: Click this button to close the application.
+After stopping the recording, a message box will display indicating that the audio has been saved to a WAV file named "recorded_audio.wav" in the same directory as the script.
+
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/voice-recorder-gui.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd voice-recorder-gui
+Install the required dependencies:
+
+Copy code
+pip install pyaudio
+Run the program:
+
+Copy code
+python voice_recorder_gui.py
+Contributing
+Contributions to the Voice Recorder GUI project are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes and commit them (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
